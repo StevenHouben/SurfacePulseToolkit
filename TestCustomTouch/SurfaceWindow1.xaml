@@ -1,0 +1,14 @@
+﻿<s:SurfaceWindow
+	x:Name="Control"
+	x:Class="TestCustomTouch.SurfaceWindow1"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:s="http://schemas.microsoft.com/surface/2008"
+    xmlns:psi="clr-namespace:PixelSense.Infrared.WPF;assembly=PixelSense.Infrared.WPF"
+	Title="TestCustomTouch"
+    WindowStyle="None"
+    psi:LightBehavior.IsEnabled="True">
+    <Grid x:Name="grid">
+    </Grid>
+	
+</s:SurfaceWindow>
